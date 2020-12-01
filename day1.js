@@ -1,8 +1,3 @@
-function readTextFile(file)
-{
-
-}
-
 function calculate(){
     var fs = require('fs');
     var alltext = fs.readFileSync('input.txt', 'utf8');
@@ -19,15 +14,7 @@ function calculate(){
                 console.log(newcalc * num1 * num2);
             }
           })
-      });
-    // for (let index = 0; index < numbersArr.length; index++) {
-    //     const numberTOUse = numbersArr[index];
-    //     let calc= 2020-numberTOUse;
-    //     numbersArr.forEach(n => {
-    //         calc
-    //     });
-
-    // }               
+      });          
 }
 
 calculate();
